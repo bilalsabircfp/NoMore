@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bg"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bilal.dzone.fiverr_security_app.org.bilal.dzone.fiverr_security_app.MainActivity">
+
+
+    <LinearLayout
+        android:background="#fdfbfb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:layout_marginTop="10dp"
+            android:background="#0000"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/logo"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="16dp"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:background="@drawable/dotted_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Turn on/off nearby users notifications"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:id="@+id/toggle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal">
+
+
+                <!--Favorites-->
+                <LinearLayout
+                    android:background="#96979b"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/li_namaz">
+
+
+
+                    <LinearLayout
+                        android:background="#f9e90d"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        >
+
+                        <ImageView
+                            android:id="@+id/a1"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/add"
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:background="#d1c41d"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.2">
+
+                        <TextView
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:text="Add Contacts"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+                <!--End Favourites-->
+
+
+
+                <!--Top Deals-->
+                <LinearLayout
+                    android:layout_marginLeft="4dp"
+                    android:background="#96979b"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/li_medication">
+
+
+
+                    <LinearLayout
+                        android:background="#2cc058"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3">
+
+                        <ImageView
+                            android:id="@+id/a2"
+                            android:src="@drawable/phone_book"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:background="#1b913e"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.2">
+
+                        <TextView
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:text="See Contacts"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+                <!--End Top Deals-->
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="horizontal">
+
+
+                <!--Favorites-->
+                <LinearLayout
+                    android:background="#000"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/li_dieting">
+
+
+
+                    <LinearLayout
+                        android:background="#00aeed"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        >
+
+                        <ImageView
+                            android:id="@+id/a3"
+                            android:padding="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/alarm2"
+                            />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_marginBottom="3dp"
+                        android:background="#0880ab"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.2">
+
+                        <TextView
+                            android:layout_margin="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="20sp"
+                            android:textColor="#fff"
+                            android:text="Alarm"
+                            />
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+                <!--End Favourites-->
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

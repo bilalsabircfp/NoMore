@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context="com.bilal.dzone.fiverr_security_app.org.bilal.dzone.fiverr_security_app.Alarm">
+
+
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Password To Deactivate Alarm"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Timer"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/pass"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password here"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>
