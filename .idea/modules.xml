@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Fiverr_Security_App.iml" filepath="$PROJECT_DIR$/Fiverr_Security_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoMore.iml" filepath="$PROJECT_DIR$/NoMore.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
